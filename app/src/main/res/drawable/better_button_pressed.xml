@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bottom 2dp Shadow -->
+    <item
+        android:top="3dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#F9A825"/>
+            <corners android:radius="7dp"/>
+
+        </shape>
+    </item>
+
+    <!-- item top left bottom right is margin -->
+    <item android:bottom="2px"
+        android:left="0px"
+        android:top="3dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FBC02D" />
+            <corners android:radius="7dp" />
+        </shape>
+    </item>
+</layer-list>
